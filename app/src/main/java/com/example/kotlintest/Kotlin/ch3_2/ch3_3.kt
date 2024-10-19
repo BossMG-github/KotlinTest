@@ -89,12 +89,14 @@ fun main() {
     }
 
     println()
+
     // 인덱스와 실제 데이터를 함께 가져오기
     for((index, value) in dataFor.withIndex()){
         print(value)
         if (index !== dataFor.size -1) print(",")
         // !== 은 객체가 다른지 확인
     }
+
     println()
 
     // while
