@@ -30,7 +30,7 @@ fun main(){
 
     // 예외 발생 연산자 !!
     // 객체가 널일 때 예외를 일으키는 연산자
-    // 널 포인트 예외를 발생시켜야 할 때 사용
+    // 널이면 예외를 발생시켜야 할 때 사용
     fun some(data: String?): Int {
         return data!!.length
     }
